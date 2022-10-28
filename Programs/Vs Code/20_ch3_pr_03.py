@@ -1,0 +1,5 @@
+# Write a program to detect doble spaces in a string
+st = "This is a string with double   spaces"
+
+doubleSpaces = st.find("  ")
+print(doubleSpaces)
